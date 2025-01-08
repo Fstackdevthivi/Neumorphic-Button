@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  height: 100vh;
+  background-color: #ecf0f3;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.neumorphic-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #4d4d4d;
+  background: #ecf0f3;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.neumorphic-btn:active {
+  box-shadow: inset 8px 8px 16px #bebebe, inset -8px -8px 16px #ffffff;
+  transform: scale(0.95);
+}
